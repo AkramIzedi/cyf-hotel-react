@@ -1,10 +1,26 @@
-.App {
+/* .App {
   text-align: left;
 }
-
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+img {
+  height: 200px;
+
+  object-fit: cover;
+}
+
+.ul5 {
+  list-style-type: none;
+  text-align: center;
 }
 
 .App-header {
@@ -17,16 +33,13 @@
   font-size: 1em;
   font-weight: bold;
 }
-
 .App-title {
   font-size: 1.5em;
 }
-
 .App-content {
   padding-top: 20px;
   font-size: large;
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -38,20 +51,126 @@
 .search {
   padding: 5px 0 20px 0;
 }
-
 tr {
   color: #5b5757;
 }
-
 .results {
   padding-top: 15px;
 }
-
 .footer {
   padding-top: 20px;
   text-align: center;
 }
-
 .card {
   width: 18rem;
+} */
+.App {
+  text-align: left;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.App-header {
+  background-color: rgb(246, 179, 34); 
+  height: 50px;
+  padding: 20px;
+  color: rgb(50, 103, 238);
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+.App-title {
+  font-size: 1.5em;
+}
+.App-content {
+  padding-top: 20px;
+  font-size: large;
+  
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.search {
+  padding: 5px 0 20px 0;
+}
+tr {
+  color: #2e5925;
+}
+.results {
+  padding-top: 15px;
+}
+.footer {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(42, 47, 200);
+  height: 60px;
+  padding: 20px;
+  color: rgb(63, 61, 139);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+
+.card {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  width: 18rem;
+}
+.cardMainDiv{
+  display: flex;
+  justify-content: center;
+}
+.pElementCard{
+  background-color: rgb(45, 96, 224);
+  color: white;
+   height: 300px;
+    padding-top:40px;
+}
+.imgHeading{
+  height: 300px;
+  display: block;
+  margin-left: 20px;
+  margin-right: auto;
+  width: 30%;
+}
+.footer-footer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgb(246, 179, 34); 
+}
+.selected{
+  background-color: rgb(159, 99, 108);
+}
+.loadingDataDiv{
+  text-align: center;
+  color: #454a87;
+}
+
+.text-left{
+  color: rgb(42, 47, 200);
+  background-color: rgb(246, 179, 34);
+}
+
+.order-title{
+color: rgb(42, 47, 200);
+  background-color: rgb(246, 179, 34);
+    
+}
+.tr-title{
+  background-color: rgb(246, 179, 34); 
 }

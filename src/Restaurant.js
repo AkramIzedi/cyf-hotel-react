@@ -1,17 +1,27 @@
-import React from "react";
+import React ,{useState} from "react";
+// import RestaurantButton from "./RestaurantButton";
+import Order from "./Order";
+
+
 
 const Restaurant = () => {
-  const pizzas = 0;
+  // const [orders , setOrders]=useState(0);
   return (
     <div>
-      <h3>Restaurant Orders</h3>
-      <ul>
-        <li>
-          Pizzas: {pizzas} <button className="btn btn-primary">Add</button>
-        </li>
-      </ul>
-    </div>
+      {/* <div className="container"> */}
+        <h3 className="order-title">Restaurant Orders</h3>
+        <ul>
+          <Order name="pizza" />
+          <Order name="salads" />
+          <Order name="Chocolate Cake" />
+
+        </ul>
+      </div>
   );
+  // function orderOne(){
+  //   setOrders(orders + 1);
+  //   console.log("Hi");
+  // }
 };
 
 export default Restaurant;
